@@ -1,0 +1,31 @@
+{
+  "name": "subsocial1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-web": "parcel ./client/app.jsx --hmr-port 9998",
+    "start-server": "nodemon ./api/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maksglukhov/subsocial1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maksglukhov/subsocial1/issues"
+  },
+  "homepage": "https://github.com/maksglukhov/subsocial1#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "parcel": "^2.6.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
